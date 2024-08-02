@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+    {{-- <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}"> --}}
+    @vite(['resources/css/style.css', 'resources/js/contactUsForm.js'])
     <!-- font awsome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <!-- <link rel="stylesheet" href="assets/media-style.css"> -->
@@ -21,7 +22,7 @@
     <!-- jquery cdn -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <!-- form validation -->
-    <script src="{{ asset('assets/js/contactUsForm.js') }}"></script>
+    {{-- <script src="{{ asset('assets/js/contactUsForm.js') }}"></script> --}}
     <title>Truptman Solution - Growing Web and Mobile app development company</title>
 </head>
 

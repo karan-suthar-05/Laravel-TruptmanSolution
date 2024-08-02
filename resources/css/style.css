@@ -2,6 +2,7 @@
 
 :root {
     --primary-color: #16ACAA;
+    /* --primary-color: var(--text-dark); */
     --text-dark: #222429;
     --text-light: #686A6F;
 
